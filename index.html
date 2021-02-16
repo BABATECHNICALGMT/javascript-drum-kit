@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>JS Drum Kit</title>
+		<title>BABA Drum Kit</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
@@ -87,16 +87,15 @@ let key = document.querySelector(`div[data-key="${e.keyCode}"]`);
     html.addEventListener('keydown',()=>{
     	 if (body.requestFullscreen) {
     body.requestFullscreen();
-  } else if (body.webkitRequestFullscreen) { /* Safari */
+  } else if (body.webkitRequestFullscreen) {
     body.webkitRequestFullscreen();
-  } else if (body.msRequestFullscreen) { /* IE11 */
+  } else if (body.msRequestFullscreen) { 
     body.msRequestFullscreen();
   }
 		
     })
 
 </script>
-</body>
 </html>
 
 
